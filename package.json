@@ -6,7 +6,10 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "moment": "^2.15.0"
+    "express-useragent": "^1.0.0",
+    "locale": "^0.1.0",
+    "moment": "^2.15.0",
+    "useragent": "^2.1.9"
   },
   "devDependencies": {},
   "scripts": {
