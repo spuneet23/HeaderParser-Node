@@ -8,8 +8,8 @@ app.use(bodyParser.urlencoded({extended:false}));
 
 app.get('/',function(req,res){
   var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
- 
-  res.send("IP Address:"+ip);
+  var lang = req.headers['accept-language'];
+  res.send("IP Address: "+ip+"      Lang: "+lang);
 });
 
 
